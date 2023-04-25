@@ -43,3 +43,6 @@ class Animal(db.Model):
 
     def __repr__(self):
         return f'<Animal: {self.species} {self.name}>'
+    
+class Test(db.Model):
+    __tablename__ = 'testing'
